@@ -1,2 +1,1 @@
-# hello-world
-Prints "Hello world!" from GPU &amp; CPU.
+Hello world from GPU &amp; CPU.
