@@ -6,6 +6,19 @@
 *.fatbin
 
 
+# VISUAL STUDIO CODE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+
+# WINDOWS
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
