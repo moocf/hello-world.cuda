@@ -80,7 +80,7 @@
     <CudaCompile Include="main.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="error.h" />
+    <ClInclude Include="support.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="LICENSE" />

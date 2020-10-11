@@ -1,7 +1,7 @@
 #include <cuda_runtime.h>
 #include <device_launch_parameters.h>
 #include <stdio.h>
-#include "error.h"
+#include "support.h"
 
 
 // Prints "Hello world!" from GPU.
@@ -26,8 +26,8 @@ __global__ void kernel() {
 // 2. Waits for GPU to finish executing the kernel.
 // 3. CPU prints after GPU is already done.
 int main() {
-  kernel<<<1, 12>>>();          // 1
-  TRY(cudaDeviceSynchronize()); // 2
-  printf("CPU: Hello world!");  // 3
+  kernel<<<1, 12>>>();            // 1
+  TRY( cudaDeviceSynchronize() ); // 2
+  printf("CPU: Hello world!");    // 3
   return 0;
 }
