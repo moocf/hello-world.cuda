@@ -28,7 +28,24 @@ communicate through global GPU memory).
 3. CPU prints after GPU is already done.
 ```
 
-See [main.cu] for code, [main.ipynb] for output.
+```bash
+# OUTPUT
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+CPU: Hello world!
+```
+
+See [main.cu] for code, [main.ipynb] for notebook.
 
 [main.cu]: main.cu
 [main.ipynb]: https://colab.research.google.com/drive/1bRfXZ7YDwQ4b3xQ_S9a1njdlCK1dZs13?usp=sharing
