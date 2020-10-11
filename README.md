@@ -28,9 +28,10 @@ communicate through global GPU memory).
 3. CPU prints after GPU is already done.
 ```
 
-See [main.cu] for code.
+See [main.cu] for code, [main.ipynb] for output.
 
 [main.cu]: main.cu
+[main.ipynb]: https://colab.research.google.com/drive/1bRfXZ7YDwQ4b3xQ_S9a1njdlCK1dZs13?usp=sharing
 
 
 ### references
