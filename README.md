@@ -29,28 +29,33 @@ communicate through global GPU memory).
 ```
 
 ```bash
-# OUTPUT
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-GPU: Hello world!
-CPU: Hello world!
+$ nvcc -std=c++17 -Xcompiler -O3 main.cu
+$ ./a.out
+
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# GPU: Hello world!
+# CPU: Hello world!
 ```
 
 See [main.cu] for code.
 
 [main.cu]: main.cu
 
+<br>
+<br>
 
-### references
+
+## References
 
 - [CUDA by Example :: Jason Sanders, Edward Kandrot](http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf)
 - [CUDA Crash Course (v2): Visual Studio 2019 Setup :: CoffeeBeforeArch](https://www.youtube.com/watch?v=cuCWbztXk4Y)

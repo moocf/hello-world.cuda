@@ -1,0 +1,13 @@
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+GPU: Hello world!
+CPU: Hello world!
