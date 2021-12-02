@@ -45,10 +45,9 @@ GPU: Hello world!
 CPU: Hello world!
 ```
 
-See [main.cu] for code, [main.ipynb] for notebook.
+See [main.cu] for code.
 
 [main.cu]: main.cu
-[main.ipynb]: https://colab.research.google.com/drive/1bRfXZ7YDwQ4b3xQ_S9a1njdlCK1dZs13?usp=sharing
 
 
 ### references

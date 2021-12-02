@@ -1,7 +1,7 @@
-#include <cuda_runtime.h>
-#include <device_launch_parameters.h>
-#include <stdio.h>
-#include "support.h"
+#include <cstdio>
+#include "src/main.hxx"
+
+using std::printf;
 
 
 // Prints "Hello world!" from GPU.
@@ -28,6 +28,7 @@ __global__ void kernel() {
 int main() {
   kernel<<<1, 12>>>();            // 1
   TRY( cudaDeviceSynchronize() ); // 2
-  printf("CPU: Hello world!");    // 3
+  printf("CPU: Hello world!\n");  // 3
+  printf("\n");
   return 0;
 }
