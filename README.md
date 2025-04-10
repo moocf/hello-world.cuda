@@ -59,3 +59,5 @@ See [main.cu] for code.
 
 - [CUDA by Example :: Jason Sanders, Edward Kandrot](http://www.mat.unimi.it/users/sansotte/cuda/CUDA_by_Example.pdf)
 - [CUDA Crash Course (v2): Visual Studio 2019 Setup :: CoffeeBeforeArch](https://www.youtube.com/watch?v=cuCWbztXk4Y)
+
+![](https://ga-beacon.deno.dev/G-G1E8HNDZYY:v51jklKGTLmC3LAZ4rJbIQ/github.com/moocf/hello-world.cuda)
